@@ -23,8 +23,6 @@ function headerScroll() {
         header[1].style.display = "none";
         header[2].style.display = "block";
         header[3].style.display = "none";
-    } if(header[2].style.display == "block" && responsive.matches){
-        header[2].style.display = "none"
-    }
+    } 
     
 }
