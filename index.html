@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Novemas Heka</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="css/img/cat-logo.png">
+</head>
+<body>
+
+    <header>
+        <div data-aos="fade-down" id="container-header">
+            <div class="logo-header">
+                <div class="logo-text-header"><h2 style="color: white">Nha<span style="color: rgb(235, 199, 0)">.</span></h2></div>
+                <div class="logo-photo-header"><img src="css/img/cat-logo.png" alt="NHA" height="64" width="64"></div>
+            </div>
+        <nav class="header-nav">
+            <div class="link-header">
+                <div class="daftar-nav-1">
+                    <a class="text-link-header" href="#Home"><span class="link">Home</span></a>
+                    <a class="text-link-header" href="#About"><span class="link">About</span></a>
+                    <a class="text-link-header" href="#Contact"><span class="link">Contact</span></a>
+                    <a class="text-link-header" href="#Blog"><span class="link">Blog</span></a>
+                    <a class="text-link-header" href="#Gallery"><span class="link">Gallery</span></a>
+                </div>
+                    <div class="menu-responsive"><span class="menu-2">Menu</span></div>
+                    <div class="daftar-nav-2">
+                        <a class="text-link-header header-text" href="#Home"><span class="link">Home</span></a>
+                        <a class="text-link-header header-text" href="#About"><span class="link">About</span></a>
+                        <a class="text-link-header header-text" href="#Contact"><span class="link">Contact</span></a>
+                        <a class="text-link-header header-text" href="#Blog"><span class="link">Blog</span></a>
+                        <a class="text-link-header header-text" href="#Gallery"><span class="link">Gallery</span></a>
+                    </div>
+                    
+            </div>
+            <div class="link-sosmed-header">
+                <a href="https://youtube.com/@Novemas12?si=_EtHwA0Z3TLMiHsD"><img src="css/img/sosmed/light-yt.png" alt="" height="20" width=""></a>
+                <a href="https://www.facebook.com/profile.php?id=100086351448314"><img src="css/img/sosmed/light-fb.png" alt="" height="20" width=""></a>
+                <a href="https://www.instagram.com/novemasid1125/"><img src="css/img/sosmed/light-ig.png" alt="" height="20" width=""></a>
+            </div>
+        </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div id="container-main">
+            <section id="Home">
+                <div class="isi-home">
+                    <div data-aos="fade-right" class="text-left-home">
+                        <div class="firstName">Novemas</div>
+                        <div class="lastName">Heka Alfarizi<span style="color: rgb(235, 199, 0);">.</span></div>
+                        <hr class="left-home">
+                        <div class="text-sosmed">
+                            <div class="text-sosmed2">
+                                <div class="baris1"><span>Instagram</span><span>Facebook</span></div>
+                                <div class="baris2"><span>Youtube</span><span>Github</span></div>
+                            </div>
+                            <div class="contactme">
+                                <button>CONTACT ME</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dhot">
+                        <div>
+                            <img class="main-logo" src="css/img/cat-logo.png" alt="" height="300" width="300">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left"    class="text-right-home">
+                        <div class="introduction">
+                            <p>INTRODUCTION</p>
+                            <h2>UI/UX Designer, Full Stack Web Developer 🗿🔥</h2>
+                        </div>
+                        <div class="learn-more">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quidem fuga blanditiis iusto magnam debitis velit nihil sequi quae ratione</p>
+                            <button>Learn More &#8595;</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+            <section id="About">
+
+            </section>
+            <section id="Contact">
+
+            </section>
+            <section id="Blog">
+
+            </section>
+            <section id="Gallery">
+                <div class="isi-gallery">
+                    <div class="judul">
+                        <p>G A L L E R Y</p>
+                        <h2>Best Friends Forever</h2>
+                    </div>
+                    <div class="photo-gallery">
+                        <img data-aos="fade-up" src="css/img/kenangan/ranubedali.jpg" alt="" height="150" width="250">
+                        <img data-aos="fade-up" data-aos-delay="50" src="css/img/kenangan/ranubedali2.jpg" alt="" height="150" width="200">
+                        <img data-aos="fade-up" data-aos-delay="100" src="css/img/kenangan/ranubedali3.jpg" alt="" height="150" width="250">
+                        <img data-aos="fade-up" data-aos-delay="150" src="css/img/kenangan/venawan.jpg" alt="" height="150" width="300">
+                        <img data-aos="fade-up" data-aos-delay="200" src="css/img/kenangan/venawan2.jpg" alt="" height="150" width="300">
+                        <img data-aos="fade-up" data-aos-delay="250" src="css/img/kenangan/venawan3.jpg" alt="" height="150" width="300">
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+
+
+        // AOS-DATA
+        AOS.init();
+
+        // JQUERY
+        $(document).ready(function(){
+            $(".menu-responsive").click(function(){
+                let daftarNav2 = $(".daftar-nav-2");
+
+                if(daftarNav2.css("display") == "none"){
+                    daftarNav2.css("display","flex")
+                } else{
+                    daftarNav2.css("display","none");
+                }
+                
+            })
+            $(".header-text").click(function(){
+                $(".daftar-nav-2").css({display: "none"})
+            })
+        })
+    </script>
+    
+</body>
+</html>

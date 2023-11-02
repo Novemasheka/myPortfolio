@@ -1,0 +1,453 @@
+@font-face {
+    font-family: "lato";
+    src: url("font/Lato-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "jetbrain";
+    src: url("font/JetBrainsMonoNL-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "dosis";
+    src: url("font/Dosis-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "conerstone";
+    src: url("font/Cornerstone.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "catamaran";
+    src: url("font/Catamaran-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "hammersmith";
+    src: url("font/HammersmithOne-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "sometype";
+    src: url("font/SometypeMono-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "roboto";
+    src: url("font/Roboto-Black.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "oswald";
+    src: url("font/Oswald-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto';
+    src: url("font/NotoSans-Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'monday';
+    src: url("font/MondayFeelings-7BD2l.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+#container-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+}
+.logo-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 100px;
+}
+.logo-text-header {
+    font-size: 1.3rem;
+    font-family: 'jetbrain';
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+.text-link-header {
+    color: white;
+    font-family: "dosis";
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    transition: .2s;
+}
+.link {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    display: flex;
+}
+.text-link-header:hover .link{
+    color: rgb(235, 199, 0);
+    transform: translateY(-4px);
+    transition: .2s;
+}
+.text-link-header:nth-child(5) {
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+
+.logo-photo-header {
+    display: none;
+    position: relative;
+    left: 20px;
+}
+.link-sosmed-header {
+    padding: 10px;
+}
+.daftar-nav-2 {
+    display: none;
+}
+.menu-responsive {
+    display: none;
+}
+/* main */
+#container-main {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+/* home */
+#Home {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(47, 47, 47);
+    z-index: 0; 
+}
+.isi-home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.dhot {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 300px;   
+    width: 300px;
+}
+.dhot div {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    border-radius: 50%;
+}
+.text-left-home {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+}
+.firstName {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: "noto";
+}
+.lastName {
+    position: relative;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    top: -12px;
+    left: 10px;
+    font-family: "noto";
+}
+/* hr */.left-home {
+    width: 31px;
+    border: 1px solid rgb(235, 199, 0);
+    position: relative;
+    border-radius: 10px;
+    top: 2px;
+    left: 10px;
+}
+.text-sosmed {
+    color: white;
+    font-family: "noto";
+    position: relative;
+    left: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 9px;
+    font-size: small;
+}
+.baris1,.baris2 {
+    display: flex;
+    margin-top: 5px;
+}
+.baris1 span:nth-child(1) {
+    padding: 0px 5px 0px 0px;
+    border-right: 1px solid white;
+}
+.baris2 span:nth-child(1) {
+    padding: 0px 5px 0px 0px;
+    border-right: 1px solid white;
+}
+.baris1 span:nth-child(2) {
+    padding: 0px 5px 0px 5px;
+}
+.baris2 span:nth-child(2) {
+    padding: 0px 5px 0px 5px;
+}
+.contactme button {
+    height: 50px;
+    width: 150px;
+    border: 3px solid ;
+    font-size: 1rem;
+    font-family: "noto";
+    background: transparent;
+    cursor: pointer;
+    transition: .2s;
+    color: rgb(212, 160, 17);
+}
+.contactme button:hover {
+    color: rgb(255, 217, 0);
+    transition: .2s;
+}
+.text-right-home {
+    height: 300px;
+    width: 350px;
+    position: relative;
+    right: 100px;
+} 
+.introduction p {
+    color: rgb(212, 160, 17);
+    font-family: "roboto";
+    font-size: small;
+    letter-spacing: 5px;
+}
+.text-right-home h2 {
+    color: white;
+    margin-top: 10px;
+    font-family: "jetbrain";
+    width: 300px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.learn-more p {
+    color: rgb(194, 194, 194);
+    font-size: 13px;
+    font-family: lato;
+    width: 290px;
+}
+.learn-more button {
+    background: transparent;
+    border: none;
+    color: rgb(235, 199, 0);
+    font-family: jetbrain;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* About */
+#About {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(60, 60, 60);
+}
+/* Contact */
+#Contact {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(47, 47, 47);
+}
+/* Blog */
+#Blog {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(60, 60, 60);
+}
+/* Galery */
+#Gallery {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(47, 47, 47);
+}
+.isi-gallery {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.isi-gallery .judul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.isi-gallery .judul p {
+    color: rgb(212, 198, 0);
+    font-family: "jetbrain";
+    font-weight: bold;
+}
+.isi-gallery .judul h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+.isi-gallery .judul figcaption {
+    color: white;
+    font-size: small;
+    width: 30rem;
+    height: 100px;
+}
+.photo-gallery {
+    margin-top: 10px;
+    width: 1145px;
+    flex-wrap: wrap;
+}
+.photo-gallery img {
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:450px) {
+    #container-header {
+        padding: 0; 
+    }
+    .header-nav {
+        width: 150px;
+    }
+    .logo-header {
+        left: 10px;
+    }
+    .logo-text-header {
+        margin-left: 0px;
+        display: none;
+    }
+    .daftar-nav-1 {
+        display: none;
+    }
+    .daftar-nav-2 {
+        display: none;
+        position: absolute;
+        border-radius: 5px;
+        height: 50px;
+        left: -30px;
+        top: 78px;
+        transform: scale(0.8);
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: white;
+    }
+    .header-text {
+        color: black;
+    }
+    .text-link-header:nth-child(5) {
+        border: none;
+        padding: 0;
+    }
+    .menu-responsive {
+        display: block;
+        color: white;
+        font-family: "dosis";
+        border-right: 2px solid white;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+        
+    }
+    .menu-2:active {
+        transform: translateY(0px);
+        transition: .2s;
+    }
+    .menu-2 {
+        display: block;
+        transition: .2s;
+    }
+    .menu-responsive:hover .menu-2 {
+        transform: translateY(-4px);
+        transition: .2s;
+        color: rgb(235, 199, 0);
+    }
+    .isi-home {
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+    }
+    
+    .dhot,.dhot div {
+        height: 150px;
+        width: 150px;
+    }
+    .main-logo {
+        width: 150px;
+        height: 150px;
+    }
+    .text-left-home,.text-right-home {
+        left: 0;
+        right: 0;
+    }
+    .text-left-home {
+        width: 300px;
+        height: 150px;
+        left: -30px;
+        top: -35px;
+    }
+    .text-sosmed {
+        flex-direction: row;
+    }
+    .contactme button {
+        height: 40px;
+        width: 110px;
+        font-size: small;
+        border: 2px solid;
+    }
+    .text-right-home {
+        top: 30px;
+        height: 240px;
+    }
+    .text-right-home h2{
+        font-size: 1.5rem;
+    }
+    .firstName,.lastName {
+        font-size: 2rem;
+    }
+}
